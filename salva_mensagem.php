@@ -46,7 +46,7 @@
 	$result_msg_contato = "INSERT INTO bombeiros_horas(idB, nome, Funcao) VALUES ('$idB', '$nome', '$funcao')";
 	$resultado_msg_contato= mysqli_query($conn, $result_msg_contato)
 		
-	header('Location:/listar_contato.php');
+	header('Location:listar_contato.php');
 ?>
 
 
